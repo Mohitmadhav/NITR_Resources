@@ -14,7 +14,8 @@
     <string name="books">Find Books</string>
     <string name="questions">Find Questions</string>
     <string name="zimbra">Zimbra</string>
-    <string name="news">News</string>
+    <string name="fee_payment">Fee Payment</string>
+    <string name="news">Telegram</string>
     <string name="user">Log Out</string>
     <string name="my_docs">My Docs</string>
     <string name="sign_out">Sign Out</string>

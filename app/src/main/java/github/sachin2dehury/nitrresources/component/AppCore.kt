@@ -54,6 +54,7 @@ object AppCore {
     const val QUESTION_LINK = "https://eapplication.nitrkl.ac.in/nitris/Login.aspx"
     const val MAIL_LINK = "https://mail.nitrkl.ac.in/"
     const val TELEGRAM_NEWS_LINK = "https://t.me/s/nitrkl"
+    const val FEE = "https://www.onlinesbi.com/sbicollect/icollecthome.htm?corpID=1509159"
     const val MB = 1024 * 1024
     const val ALL = "*/*"
     const val COMMON = "All"
