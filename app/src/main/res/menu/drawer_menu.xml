@@ -20,4 +20,8 @@
         android:id="@+id/news"
         android:icon="@drawable/ic_baseline_dashboard_24"
         android:title="@string/news" />
+    <item
+        android:id="@+id/fee_payment"
+        android:icon="@drawable/ic_baseline_payment_24"
+        android:title="@string/fee_payment" />
 </menu>

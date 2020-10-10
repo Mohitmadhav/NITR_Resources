@@ -7,6 +7,7 @@ import android.widget.Toast
 import androidx.appcompat.widget.PopupMenu
 import androidx.fragment.app.FragmentManager
 import github.sachin2dehury.nitrresources.R
+import github.sachin2dehury.nitrresources.component.AppCore.FEE
 import github.sachin2dehury.nitrresources.core.DocDetails
 import github.sachin2dehury.nitrresources.dialog.AboutDialog
 import github.sachin2dehury.nitrresources.dialog.ActionDialog
@@ -37,6 +38,7 @@ object AppMenu {
             R.id.nitris -> AppItemAction.openLink(AppCore.QUESTION_LINK, context)
             R.id.mail -> AppItemAction.openLink(AppCore.MAIL_LINK, context)
             R.id.news -> AppItemAction.openLink(AppCore.TELEGRAM_NEWS_LINK, context)
+            R.id.fee_payment -> AppItemAction.openLink(AppCore.FEE, context)
             R.id.home -> {
                 if (AppCore.firebaseAuth.currentUser == null) {
                     Toast.makeText(context, "Please Log in First!", Toast.LENGTH_LONG).show()
