@@ -42,6 +42,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/aboutImage" />
 
+    <TextView
+        android:id="@+id/devName1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/devName1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/grey"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/devName" />
+
     <View
         android:id="@+id/divider"
         android:layout_width="64dp"
@@ -50,7 +62,7 @@
         android:background="@drawable/gradient"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/devName" />
+        app:layout_constraintTop_toBottomOf="@+id/devName1" />
 
     <TextView
         android:id="@+id/dev"
