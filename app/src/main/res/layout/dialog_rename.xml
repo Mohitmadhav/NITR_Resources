@@ -1,38 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:background="@color/lightBrown">
+    android:background="#17FF7D8A">
 
     <ImageView
         android:id="@+id/saveIcon"
-        android:layout_width="96dp"
-        android:layout_height="96dp"
+        android:layout_width="67dp"
+        android:layout_height="74dp"
         android:layout_marginTop="32dp"
         app:layout_constraintBottom_toTopOf="@+id/subjectName"
         app:layout_constraintEnd_toStartOf="@+id/renameHeader"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_baseline_folder_shared_24"
-        app:tint="@color/pink" />
+        app:tint="#FF7D8A" />
 
     <TextView
         android:id="@+id/renameHeader"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
         android:text="@string/save_file"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        android:textColor="@color/pink"
+        android:textColor="#FF7D8A"
         app:layout_constraintBottom_toTopOf="@+id/subjectName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/saveIcon"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.528" />
 
     <Button
         android:id="@+id/cancelButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
         android:text="@string/cancel"
         app:layout_constraintBottom_toBottomOf="@+id/saveButton"
         app:layout_constraintEnd_toEndOf="parent"
@@ -40,10 +44,12 @@
 
     <Button
         android:id="@+id/saveButton"
+        style="@style/AppTheme.Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="144dp"
         android:layout_marginBottom="48dp"
+        android:fontFamily="@font/montserrat"
         android:text="@string/save_file"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/cancelButton"
@@ -93,7 +99,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
+        android:fontFamily="@font/montserrat"
         android:text="@string/common_to_other_branches_too"
+        android:textColor="#27191A"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/courseName" />

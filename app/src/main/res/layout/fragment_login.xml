@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/AppTheme"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -15,25 +17,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/personIcon"
-        android:layout_width="96dp"
-        android:layout_height="96dp"
-        android:layout_marginTop="32dp"
-        android:background="@drawable/gradient"
-        android:contentDescription="@string/person"
-        android:src="@drawable/ic_baseline_account_circle_24"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <Button
         android:id="@+id/signInButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="91dp"
+        android:layout_height="50dp"
         android:layout_gravity="start"
         android:layout_marginTop="128dp"
+        android:background="#FF7D8A"
+        android:fontFamily="@font/montserrat"
         android:text="@string/sign_in"
         app:layout_constraintEnd_toStartOf="@+id/signUpButton"
         app:layout_constraintStart_toStartOf="parent"
@@ -44,6 +35,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="start"
+        android:layout_marginBottom="0dp"
+        android:background="#FF7D8A"
+        android:fadingEdge="vertical"
+        android:fontFamily="@font/montserrat"
         android:text="@string/sign_up"
         app:layout_constraintBottom_toBottomOf="@+id/signInButton"
         app:layout_constraintEnd_toEndOf="parent"
@@ -65,26 +60,11 @@
         app:layout_constraintTop_toBottomOf="@+id/signInButton" />
 
     <EditText
-        android:id="@+id/userEmail"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="24dp"
-        android:autofillHints="email"
-        android:hint="@string/enter_email"
-        android:inputType="textEmailAddress"
-        android:selectAllOnFocus="true"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/personIcon" />
-
-    <EditText
         android:id="@+id/userPassword"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="24dp"
         android:autofillHints="password"
         android:hint="@string/enter_password"
@@ -92,7 +72,38 @@
         android:inputType="textPassword"
         android:selectAllOnFocus="true"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/userEmail" />
+
+    <EditText
+        android:id="@+id/userEmail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="24dp"
+        android:autofillHints="email"
+        android:hint="@string/enter_email"
+        android:inputType="textEmailAddress"
+        android:selectAllOnFocus="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="88dp"
+        android:layout_height="89dp"
+        android:layout_marginStart="165dp"
+
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="165dp"
+        android:contentDescription="@string/string"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/nitr_logo_black" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

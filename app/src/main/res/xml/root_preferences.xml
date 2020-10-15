@@ -26,8 +26,10 @@
         app:title="Academics">
 
         <ListPreference
+
             android:key="Stream"
-            android:title="Stream" />
+            android:title="Stream"
+            app:icon="@drawable/ic_baseline_edit_24" />
 
     </PreferenceCategory>
 
