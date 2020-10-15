@@ -50,14 +50,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
-        android:fontFamily="@font/montserrat"
+        android:fontFamily="@font/montaga"
         android:text="@string/devName1"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="@color/grey"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/devName"
-        tools:fontFamily="@font/montaga" />
+        app:layout_constraintTop_toBottomOf="@+id/devName" />
 
     <View
         android:id="@+id/divider"

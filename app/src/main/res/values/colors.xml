@@ -2,7 +2,7 @@
 <resources>
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
-    <color name="colorAccent">#03DAC5</color>
+
     <color name="lightDark">#1D1E33</color>
     <color name="dark">#111328</color>
     <color name="pink">#EB1555</color>
@@ -10,7 +10,7 @@
     <color name="white">#FFFFFF</color>
     <color name="light">#f4ece6</color>
     <color name="lightBrown">#e6dace</color>
-    <color name="lightBlue">#21D2FE</color>
+
     <color name="lightPurple">#A136FE</color>
     <color name="lightPink">#FFFF7D8A</color>
 </resources>
