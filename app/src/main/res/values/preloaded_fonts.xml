@@ -3,11 +3,17 @@
     <array name="preloaded_fonts" translatable="false">
 
         <item>@font/average</item>
+        <item>@font/biryani_semibold</item>
         <item>@font/capriola</item>
+        <item>@font/crimson_text_semibold</item>
         <item>@font/droid_sans_mono</item>
         <item>@font/francois_one</item>
+        <item>@font/josefin_sans_bold</item>
+        <item>@font/josefin_sans_semibold</item>
         <item>@font/montaga</item>
         <item>@font/montserrat</item>
+        <item>@font/montserrat_alternates_bold</item>
         <item>@font/montserrat_bold</item>
+        <item>@font/montserrat_subrayada_bold</item>
     </array>
 </resources>
