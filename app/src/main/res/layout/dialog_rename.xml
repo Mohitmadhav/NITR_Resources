@@ -38,7 +38,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/montserrat"
         android:text="@string/cancel"
-        android:textColor="@color/lightDark"
+        android:textColor="@color/light"
         app:layout_constraintBottom_toBottomOf="@+id/saveButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/saveButton" />
@@ -52,7 +52,7 @@
         android:layout_marginBottom="48dp"
         android:fontFamily="@font/montserrat"
         android:text="@string/save_file"
-        android:textColor="@color/lightDark"
+        android:textColor="@color/light"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/cancelButton"
         app:layout_constraintStart_toStartOf="parent"

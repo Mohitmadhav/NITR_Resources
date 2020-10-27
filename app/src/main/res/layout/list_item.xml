@@ -29,7 +29,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:tint="@color/grey"
+        app:tint="#FFFFFF"
         tools:contentDescription="image" />
 
     <TextView
@@ -43,7 +43,7 @@
         android:maxLines="2"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textColor="#232323"
+        android:textColor="#FFFFFF"
         android:textSize="20sp"
         android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="@+id/image"
@@ -62,7 +62,7 @@
         android:fontFamily="@font/montserrat"
         android:maxLines="2"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:textColor="#232323"
+        android:textColor="@color/grey"
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/subject"
         app:layout_constraintStart_toEndOf="@+id/image"

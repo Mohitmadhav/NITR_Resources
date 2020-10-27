@@ -21,7 +21,7 @@ object OneDriveAuth {
 //        chain.proceed(authRequest)
 //    })
 
-    val client = OkHttpClient.Builder().authenticator { _, response ->
+    val client: OkHttpClient = OkHttpClient.Builder().authenticator { _, response ->
         val credential = Credentials.basic(admin.email, admin.password)
         response.request.newBuilder().header("Authorization", credential).build()
     }.build()
@@ -53,3 +53,7 @@ object OneDriveAuth {
         }
     }
 }
+
+
+
+

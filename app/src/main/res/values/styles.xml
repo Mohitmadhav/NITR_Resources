@@ -1,11 +1,11 @@
 <resources>
 
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <item name="colorPrimary">#05F04B</item>
-        <item name="colorPrimaryDark">#04C83F</item>
+        <item name="colorPrimary">@color/lightPink</item>
+        <item name="colorPrimaryDark">@color/lightPink</item>
 
         <item name="android:buttonStyle">@style/AppTheme.Button</item>
-        <item name="actionMenuTextColor"> @color/lightDark</item>
+        <item name="actionMenuTextColor"> @color/lightPink</item>
         <!--        <item name="android:windowBackground">@color/lightBlue</item>-->
         <!--        <item name="android:itemBackground">@color/lightBlue</item>-->
         <!--        <item name="android:textColor">@android:color/white</item>-->
