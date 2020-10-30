@@ -74,8 +74,8 @@ object AppCore {
         "Chemical Engineering",
         "Ceramic Engineering",
         "Computer Science and Engineering",
-        "Electronics and Communication Engineering",
-        "Electronics and Instrumentation Engineering",
+        "Electronics and Communication Engg.",
+        "Electronics and Instrumentation Engg.",
         "Electrical Engineering",
         "Food Process Engineering",
         "Industrial Design",
@@ -115,7 +115,7 @@ object AppCore {
         "Analytics and Decision Sciences",
         "Telematics and Signal Processing",
         "VLSI Design and Embedded Systems",
-        "Electronics and Instrumentation Engineering",
+        "Electronics and Instrumentation Engg.",
         "Communication and Signal Processing",
         "Communication and Networks",
         "Signal and Image Processing",
@@ -138,7 +138,7 @@ object AppCore {
         "Steel Technology",
         "Mining Engineering"
     )
-    val streamMap = listOf("B. Arch", "B. Tech", "Int.\nM. Sc", "M. Sc", "M. Tech")
+    val streamMap = listOf("", "", "", "", "")
     val yearMap = listOf("1st", "2nd", "3rd", "4th", "5th")
     val bArchMap = listOf("AR")
     val bTechMap = listOf(

@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:background="@color/lightBrown">
+    android:background="@color/light">
 
     <ImageView
         android:id="@+id/aboutImage"
@@ -23,9 +24,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="48dp"
+        android:fontFamily="@font/montaga"
         android:text="@string/about"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        android:textColor="@color/dark"
+        android:textColor="#FF7D8A"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -35,6 +37,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="48dp"
+        android:fontFamily="@font/montaga"
         android:text="@string/devName"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="@color/grey"
@@ -47,6 +50,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
+        android:fontFamily="@font/montaga"
         android:text="@string/devName1"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="@color/grey"
@@ -57,7 +61,7 @@
     <View
         android:id="@+id/divider"
         android:layout_width="64dp"
-        android:layout_height="8dp"
+        android:layout_height="6dp"
         android:layout_marginTop="32dp"
         android:background="@drawable/gradient"
         app:layout_constraintEnd_toEndOf="parent"
@@ -70,9 +74,10 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="48dp"
         android:layout_marginBottom="48dp"
+        android:fontFamily="@font/montaga"
         android:text="@string/developer"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        android:textColor="@color/lightDark"
+        android:textColor="#FF7D8A"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

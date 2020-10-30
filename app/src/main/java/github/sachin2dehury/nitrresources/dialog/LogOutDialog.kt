@@ -16,7 +16,7 @@ class LogOutDialog(context: Context) : AppCompatDialog(context) {
         supportRequestWindowFeature((Window.FEATURE_NO_TITLE))
         setContentView(R.layout.dialog_action)
 
-        actionHeader.text = action
+
         actionButton.text = action
 
         actionIcon.setImageResource(R.drawable.ic_baseline_account_circle_24)
