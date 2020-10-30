@@ -6,6 +6,6 @@
         android:startColor="@color/lightPink" />
     <corners android:radius="1000dp" />
     <size
-        android:width="50dp"
-        android:height="50dp" />
+        android:width="65dp"
+        android:height="65dp" />
 </shape>
